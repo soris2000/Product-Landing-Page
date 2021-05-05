@@ -1,0 +1,290 @@
+body{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+}
+/**********Header********/
+#header{
+    background: teal;
+    padding: 10px;
+    padding-bottom: 15px;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    position: fixed;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index:3;
+}
+
+#header-img{
+    width:60px;
+    color:#fff;
+}
+#brand-name{
+    color: #fff;
+    font-size:30px;
+    text-decoration: none;
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+.nav-link:hover{
+    background:rgb(6, 90, 90);
+}
+
+/**********Section Welcome********/
+.welcome{
+    height: 600px;
+    background: rgb(14, 51, 119);
+    background-image: url(https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.welcome-title{
+    color: #fff;
+    font-size:3rem;
+}
+.welcome-subtitle{
+    color: #fff;
+    padding:0px;
+    position:relative;
+    top:-75px;
+}
+
+/**********Section Features********/
+.features{
+    background: #f5f5f5;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    margin:0 auto;
+    padding:100px;
+
+}
+.card-features{
+    background:white;
+    text-align:center;
+    width:25%;
+    padding:15px;
+    border:1px solid #fff;
+    box-shadow: 2px 2px 2px rgb(190, 186, 186);
+    border-radius:5px;
+}
+
+i{
+    font-size:80px !important;
+    color:teal;
+}
+
+.card-feaures__title{
+    font-size:27px;
+}
+
+/**********Section Video********/
+.video{
+    display: flex;
+    justify-content:center;
+    margin:0 auto;
+    padding:50px;
+}
+
+/**********Section Popular Places********/
+.popular-places{
+    background: #f5f5f5;
+    margin:0 auto;
+    padding:30px;
+}
+.popular-places__title{
+    text-align: center;
+    font-size:30px;
+}
+.popular-places__title span{
+    color:teal;
+}
+
+.card-places{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    margin:0 auto;
+    padding-left:50px;
+    padding-right:50px;
+}
+.card-place{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:25%;
+    border:1px solid #fff;
+    box-shadow: 2px 2px 2px rgb(190, 186, 186);
+    border-radius:5px;
+}
+.card-place__img{
+    width:100%;
+    height:250px;
+}
+.card-place__title{
+    position:relative;
+    top:-50px;
+    color:white;
+}
+.card-place__content{
+    padding:10px;
+}
+
+/**********Section follow********/
+.follow{
+    background:teal;
+    text-align:center;
+    color:white;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.follow-img{
+   height:60px;
+   padding-bottom: 15px;
+   padding-top: 15px;
+}
+
+/**********Section Prices********/
+.prices{
+    padding:40px;
+}
+.prices-title{
+    text-align: center;
+    font-size:30px;
+}
+.card-prices{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    margin:0 auto;
+    padding-left:50px;
+    padding-right:50px;
+}
+.card-price{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:25%;
+    border:1px solid rgb(190, 186, 186);;
+    border-radius:5px;
+}
+.card-price:hover{
+    transform: scale(1.1);
+}
+
+.card-price__title{
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+    background:teal;
+    width:100%;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.card-price__price{
+    font-size:30px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.card-price ul{
+    list-style: none;
+    text-align: center;
+}
+
+.card-price__button{
+    font-size:20px;
+    background:teal;
+    color:white;
+    border-radius: 5px;
+    margin-top:15px;
+   margin-bottom:30px;
+   padding:10px;
+   border-color: white;
+}
+.card-price__button:hover{
+    background:rgb(231, 106, 48);
+}
+
+/**********Section Contact********/
+.contact{
+    padding:15px;
+}
+.contact-title{
+    text-align: center;
+    font-size:30px;
+}
+.contact-title span{
+    color:teal;
+}
+
+#form{
+    background:rgba(235, 230, 230, 0.952);
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    padding-left:50px;
+    padding-right:50px;
+    align-items:center;
+    width:50%;
+}
+#form p{
+    font-size:25px;
+}
+input,textarea{
+    width:100%;
+    font-size:25px;
+    margin:10px;
+    border-radius: 5px;
+}
+#submit{
+    font-size:20px;
+    background:teal;
+    color:white;
+    margin-top:15px;
+    margin-bottom:30px;
+    padding:10px;
+    width: 50%;
+   align-self: flex-start;
+}
+
+#submit:hover{
+    background:rgb(231, 106, 48);
+}
+
+/**********Section footer********/
+.footer{
+    background:teal;
+    padding:30px;
+    text-align: center;
+    font-size:30px;
+    color:white;
+}
+@media (max-width:750px){
+    .features,.prices,.popular-places{
+        padding:20px;
+    }
+    .card-features,.card-place,.card-price{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #form{
+        width: 70%;
+    }
+
+}
